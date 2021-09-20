@@ -67,37 +67,38 @@ it supports searching algorithms: </br>
   2-search_binary</br>
   
   
-  Example:
-a1=ArrayList(max_size=10)
-a1.add(6)
-a1.add(55)
-a1.add(10)
+  Example:</br>
+  ```
+a1=ArrayList(max_size=10)</br>
+a1.add(6)</br>
+a1.add(55)</br>
+a1.add(10)</br>
 
-a2=ArrayList()
-a2.add(1)
-a2.add(12)
-a2.add(9)
+a2=ArrayList()</br>
+a2.add(1)</br>
+a2.add(12)</br>
+a2.add(9)</br>
 
-x=a1+a2
-print(x)
-x=x*10
-print(x)
+x=a1+a2</br>
+print(x)</br>
+x=x*10</br>
+print(x)</br>
 
-x.sort_quick()
-print(x)
+x.sort_quick()</br>
+print(x)</br>
+```
+output:</br>
+index 0 :7</br>
+index 1 :67</br>
+index 2 :19</br>
 
-output:
-index 0 :7
-index 1 :67
-index 2 :19
+index 0 :70</br>
+index 1 :670</br>
+index 2 :190</br>
 
-index 0 :70
-index 1 :670
-index 2 :190
-
-index 0 :70
-index 1 :190
-index 2 :670
+index 0 :70</br>
+index 1 :190</br>
+index 2 :670</br>
         
         
 
