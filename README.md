@@ -20,7 +20,7 @@ searching algorithms:</br>
 2-binary</br>
 
 
-ArrayList:
+**ArrayList:**
  A list represented by array</br>
 advantages:</br>
 
