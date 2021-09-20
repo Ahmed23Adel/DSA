@@ -1,6 +1,6 @@
 Most important data structures, associated with very optimized sorting, and searching algrothims.
 
-Data structure:</br>
+# Data structure:</br>
 1.**ArrayList** </br>
 2.**LinkedList**</br>
 3.**stack implemented with array (ArrayStack)**</br>
@@ -9,13 +9,13 @@ Data structure:</br>
 4.**Queue implemented with linkedList (linkedQueue)**</br>
 5.**binary serach tree, implemented by Linked list (LinkedBinarySearchTree)**</br>
 
-Sorting Algorithms:</br>
+# Sorting Algorithms:</br>
 1**selection**</br>
 2.**insertion**</br>
 3.quick sort**</br>
 4.**counting sort**</br>
 
-searching algorithms:</br>
+# searching algorithms:</br>
 1.**sequential**</br>
 2.**binary**</br>
 
