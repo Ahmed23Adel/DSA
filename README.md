@@ -23,12 +23,11 @@ searching algorithms:</br>
 ArrayList:
  A list represented by array</br>
 advantages:</br>
-------------
+
   1-Access any element ay any index O(1)</br>
   2-inserting/deleting an element at the end of arry is O(1)</br>
   3-fixed size array,cannot be changed after intialization, so it doesn't resize at each addition </br>
 disadvantages:</br>
-----------------
   1- insertion at the first of array will all elements taking O(N)</br>
   2- size cannot be changed if needed more space.</br>
 
