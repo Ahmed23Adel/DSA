@@ -268,7 +268,56 @@ output: </br>
 8 </br>
 4 </br>
 
-    
+
+# LinkedBinarySearchTree
+Binary search tree, implented by Linked list not array 
+It assures that worst case for insertion, deletion,search is O(N),
+but average is O(log(N))</br>
+
+
+
+1. def add(self, val): Adding new node to the tree</br>
+2. def get_min(self): Returns the min of the array, meaning the left most node</br>
+3. get_max(self):  return the max value for the array, meaning the right most node.</br>
+4.  delete(self, val): delete node with specific value.</br>
+5.   contains(self, val):  does the tree contains that vlue</br>
+6.   preorder(self):  returning list containsing the elemetn in preorder traversal</br>
+        root- left-right</br>
+7.inorder(self):  returning list containsing the elemetn in inorder traversal</br>
+        Left - root -right</br>
+8. postorder(self):   returning list containsing the elemetn in postorder traversal</br>
+        left- right-root.</br>
+        
+```
+a1=LinkedBinarySearchTree()
+a1.add(2)
+a1.add(4)
+a1.add(8)
+a1.add(45)
+a1.add(45)
+a1.add(9)
+a1.add(38)
+a1.add(7)
+
+print(a1.get_min())
+print(a1.get_max())
+print(a1.preorder())
+print(a1.inorder())
+```
+output:</br>
+2</br>
+45</br>
+[2, 4, 8, 7, 45, 45, 9, 38]</br>
+[2, 4, 7, 8, 9, 38, 45, 45]</br>
+
+        
+        
+        
+
+       
+
+
+
         
 
 
