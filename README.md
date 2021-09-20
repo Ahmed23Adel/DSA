@@ -22,16 +22,16 @@ searching algorithms:</br>
 
 ## ArrayList:
  A list represented by array</br>
-advantages:</br>
+**advantages**:</br>
+1.-Access any element ay any index O(1)</br>
+2.inserting/deleting an element at the end of arry is O(1)</br>
+3.fixed size array,cannot be changed after intialization, so it doesn't resize at each addition </br>
 
-  1-Access any element ay any index O(1)</br>
-  2-inserting/deleting an element at the end of arry is O(1)</br>
-  3-fixed size array,cannot be changed after intialization, so it doesn't resize at each addition </br>
-disadvantages:</br>
-  1- insertion at the first of array will all elements taking O(N)</br>
-  2- size cannot be changed if needed more space.</br>
+**disadvantages**:</br>
+1. insertion at the first of array will all elements taking O(N)</br>
+2. size cannot be changed if needed more space.</br>
 
-most important algorithms
+# most important algorithms
 1-  get_free_space(self): Get count of free spaces in the array.</br>
 2-add (self,val): Adding element at the end of the array if not filled</br>
 3- remove_at(self, k):  Remove item in array at index k, meaning it will shift elemens to the left</br>
