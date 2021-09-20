@@ -2,7 +2,7 @@ Most important data structures, associated with very optimized sorting, and sear
 
 Data structure:</br>
 1.**ArrayList** </br>
-2.**LinkedList **</br>
+2.**LinkedList**</br>
 3.**stack implemented with array (ArrayStack)**</br>
 4.**stack implemented with linkedList (LinkedStack)**</br>
 3.**stack implemented with array (ArrayQueue)**</br>
