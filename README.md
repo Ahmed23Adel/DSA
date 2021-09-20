@@ -5,7 +5,7 @@ Most important data structures, associated with very optimized sorting, and sear
 2.**LinkedList**</br>
 3.**stack implemented with array (ArrayStack)**</br>
 4.**stack implemented with linkedList (LinkedStack)**</br>
-3.**stack implemented with array (ArrayQueue)**</br>
+3.**Queue implemented with array (ArrayQueue)**</br>
 4.**Queue implemented with linkedList (linkedQueue)**</br>
 5.**binary serach tree, implemented by Linked list (LinkedBinarySearchTree)**</br>
 
