@@ -172,22 +172,111 @@ print(x)
 x.sort_insertion()
 print(x)
 ```
-output
+output</br>
 
-index 0 :7
-index 1 :67
-index 2 :19
+index 0 :7</br>
+index 1 :67</br>
+index 2 :19</br>
 
-index 0 :70
-index 1 :670
-index 2 :190
+index 0 :70</br>
+index 1 :670</br>
+index 2 :190</br>
 
-index 0 :70
-index 1 :190
-index 2 :670
+index 0 :70</br>
+index 1 :190</br>
+index 2 :670</br>
+
+# ArrayStack </br>
+
+Stack data structure implmented by Array list meaning it has no max size.</br>
+You can access the top element </br>
+
+**Advantages**: </br>
+1- access any element O(1) </br>
+
+**Disadvantages**: </br>
+1- you need to specifiy the max size  </br>
+
+# most important algorithms </br>
+1. push(self, val):  adding element at the top of all previous </br>
+2. pop(self):  removing the top element  </br>
+3. peek(self):   Lookin at teh first element only without removing  </br>
+4. get_actual_len(self)  Get the actual count of inserted elements in array </br>
+5. get_free_space(self): Get count of free spaces in the array. </br>
+6. replace(self, replaced, to): replace any element with given input </br>
+7. print_all(self): replace all items in arry with specific value "replaced" to "to" </br>
+8. to_numpy(self, type=np.int32): return numpy array with size equal size of inserted elements with type equal to type </br>
+9. to_serties(self,type=np.int32): Return series compatible with pandas </br>
+```
+a1=ArrayStack()
+a1.push(2)
+a1.push(4)
+a1.push(8)
+a1.push(77)
+
+print(a1.peek())
+print(a1.pop())
+print(a1.pop())
+print(a1.pop())
+```
+
+output:
+77
+77
+8
+4
+
+
+    
+# LinkedStack </br>
+
+Stack data structure implmented by Linked list meaning it has no max size. </br>
+You can access the top element </br>
+
+**Advantages**: </br>
+1.access first element O(1) </br>
+2. No MAX size </br>
+
+**Disadvantages**: </br>
+1.access to last element takes O(N) </br>
+
+# most important algorithms </br>
+1. push(self, val):  adding element at the top of all previous </br>
+2. pop(self):  removing the top element  </br>
+3. peek(self):   Lookin at teh first element only without removing  </br>
+7. print_all(self): replace all items in arry with specific value "replaced" to "to" </br>
+8. to_numpy(self, type=np.int32): return numpy array with size equal size of inserted elements with type equal to type </br>
+9. to_serties(self,type=np.int32): Return series compatible with pandas </br>
+
+```
+a1=LinkedStack()
+a1.push(2)
+a1.push(4)
+a1.push(8)
+a1.push(77)
+
+print(a1.peek())
+print(a1.pop())
+print(a1.pop())
+print(a1.pop())
+
+```
+
+output: </br>
+77 </br>
+77 </br>
+8 </br>
+4 </br>
+
+    
+        
+
 
         
         
+
+
+
 
 
 
