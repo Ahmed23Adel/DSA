@@ -31,7 +31,7 @@ Most important data structures, associated with very optimized sorting, and sear
 1. insertion at the first of array will all elements taking O(N)</br>
 2. size cannot be changed if needed more space.</br>
 
-# most important algorithms
+# most important methods
 1-  get_free_space(self): Get count of free spaces in the array.</br>
 2-add (self,val): Adding element at the end of the array if not filled</br>
 3- remove_at(self, k):  Remove item in array at index k, meaning it will shift elemens to the left</br>
@@ -197,7 +197,7 @@ You can access the top element </br>
 **Disadvantages**: </br>
 1- you need to specifiy the max size  </br>
 
-# most important algorithms </br>
+# most important methods </br>
 1. push(self, val):  adding element at the top of all previous </br>
 2. pop(self):  removing the top element  </br>
 3. peek(self):   Lookin at teh first element only without removing  </br>
@@ -240,7 +240,7 @@ You can access the top element </br>
 **Disadvantages**: </br>
 1.access to last element takes O(N) </br>
 
-# most important algorithms </br>
+# most important methods </br>
 1. push(self, val):  adding element at the top of all previous </br>
 2. pop(self):  removing the top element  </br>
 3. peek(self):   Lookin at teh first element only without removing  </br>
